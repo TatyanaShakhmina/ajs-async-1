@@ -3,6 +3,7 @@ const path = require('node:path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  cache: false,
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
